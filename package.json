@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/renderjson",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Render HTML/Markdown json fragments safely for docs pipelines.",
+  "bin": {
+    "renderjson": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/renderjson.git"
+  },
+  "homepage": "https://theworker02.github.io/renderjson/",
+  "keywords": [
+    "render",
+    "json",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
